@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Cuma Mesajları"
+        android:id="@+id/item_cuma">
+    </item>
+    <item android:title="Mevlana Sözleri"
+        android:id="@+id/item_mevlana"/>
+    <item android:title="Kandil Mesajları">
+        <menu>
+            <item android:id="@+id/item_beraat"
+                android:icon="@drawable/cami"
+                android:title="Beraat Kandili Mesajları"/>
+            <item android:id="@+id/item_mirac"
+                android:icon="@drawable/cami"
+                android:title="Miraç Kandili Mesajları"/>
+            <item android:id="@+id/item_regaip"
+                android:icon="@drawable/cami"
+                android:title="Regaip Kandili Mesajları"/>
+            <item android:id="@+id/item_mevlud"
+                android:icon="@drawable/cami"
+                android:title="Mevlid Kandili Mesajları"/>
+
+        </menu>
+    </item>
+    <item android:title="Bayram Mesajları">
+        <menu>
+            <item android:id="@+id/item_ramazan"
+                android:icon="@drawable/cami"
+                android:title="Ramazan Bayramı Mesajları"/>
+            <item android:id="@+id/item_kurban"
+                android:icon="@drawable/cami"
+                android:title="Kurban Bayramı  Mesajları"/>
+        </menu>
+    </item>
+    <item android:title="Kadir Gecesi Mesajları"
+        android:id="@+id/item_kadir_gecesi"></item>
+    <item
+        android:id="@+id/item_siirler"
+        android:title="Yazarımızdan Şiirler"></item>
+
+</menu>
